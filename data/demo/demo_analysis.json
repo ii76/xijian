@@ -1,0 +1,1645 @@
+{
+  "version": 1,
+  "mode": "precomputed_demo",
+  "signals": [
+    {
+      "comment_id": "C-0001",
+      "type": "需求矛盾",
+      "topic": "代糖安全与甜味",
+      "need": "希望获得无糖或低负担的收益",
+      "concern": "担心替代方案带来新的代价",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 4,
+      "evidence_span": "无糖是挺好,但代糖长期喝真的安全吗?",
+      "id": "SIG-0001-01"
+    },
+    {
+      "comment_id": "C-0001",
+      "type": "高频疑问",
+      "topic": "代糖安全与甜味",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 4,
+      "evidence_span": "无糖是挺好,但代糖长期喝真的安全吗?",
+      "id": "SIG-0001-02"
+    },
+    {
+      "comment_id": "C-0002",
+      "type": "高频疑问",
+      "topic": "无糖饮料选择",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "零糖饮料为什么喝起来还是甜的?",
+      "id": "SIG-0002-01"
+    },
+    {
+      "comment_id": "C-0002",
+      "type": "观点分歧",
+      "topic": "无糖饮料选择",
+      "need": "希望验证不同说法",
+      "concern": "评论区观点相互冲突",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "零糖饮料为什么喝起来还是甜的?",
+      "id": "SIG-0002-02"
+    },
+    {
+      "comment_id": "C-0003",
+      "type": "高频疑问",
+      "topic": "减脂与热量",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "减脂健身人群",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "减脂期能不能每天喝无糖可乐?",
+      "id": "SIG-0003-01"
+    },
+    {
+      "comment_id": "C-0004",
+      "type": "高频疑问",
+      "topic": "代糖安全与甜味",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 3,
+      "evidence_span": "赤藓糖醇和阿斯巴甜到底哪个更好?",
+      "id": "SIG-0004-01"
+    },
+    {
+      "comment_id": "C-0004",
+      "type": "观点分歧",
+      "topic": "代糖安全与甜味",
+      "need": "希望验证不同说法",
+      "concern": "评论区观点相互冲突",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 3,
+      "evidence_span": "赤藓糖醇和阿斯巴甜到底哪个更好?",
+      "id": "SIG-0004-02"
+    },
+    {
+      "comment_id": "C-0004",
+      "type": "对比需求",
+      "topic": "代糖安全与甜味",
+      "need": "需要可执行的选择依据",
+      "concern": "缺少统一比较标准",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 3,
+      "evidence_span": "赤藓糖醇和阿斯巴甜到底哪个更好?",
+      "id": "SIG-0004-03"
+    },
+    {
+      "comment_id": "C-0005",
+      "type": "需求矛盾",
+      "topic": "无糖饮料选择",
+      "need": "希望获得无糖或低负担的收益",
+      "concern": "担心替代方案带来新的代价",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "我喝零糖汽水反而更想吃甜食。",
+      "id": "SIG-0005-01"
+    },
+    {
+      "comment_id": "C-0006",
+      "type": "高频疑问",
+      "topic": "控糖与血糖",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "控糖人群",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "糖尿病人可以喝标着零糖的饮料吗?",
+      "id": "SIG-0006-01"
+    },
+    {
+      "comment_id": "C-0007",
+      "type": "高频疑问",
+      "topic": "配料与营养标签",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "配料表里有碳水,为什么还能叫无糖?",
+      "id": "SIG-0007-01"
+    },
+    {
+      "comment_id": "C-0008",
+      "type": "需求矛盾",
+      "topic": "减脂与热量",
+      "need": "希望获得无糖或低负担的收益",
+      "concern": "担心替代方案带来新的代价",
+      "audience": "减脂健身人群",
+      "scene": "运动后",
+      "emotion_level": 3,
+      "evidence_span": "健身后想喝点有味道的,又怕影响减脂。",
+      "id": "SIG-0008-01"
+    },
+    {
+      "comment_id": "C-0008",
+      "type": "隐藏场景",
+      "topic": "减脂与热量",
+      "need": "需要场景化选择建议",
+      "concern": "通用建议无法覆盖具体使用条件",
+      "audience": "减脂健身人群",
+      "scene": "运动后",
+      "emotion_level": 3,
+      "evidence_span": "健身后想喝点有味道的,又怕影响减脂。",
+      "id": "SIG-0008-02"
+    },
+    {
+      "comment_id": "C-0009",
+      "type": "高频疑问",
+      "topic": "无糖饮料选择",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "无糖茶比无糖汽水更健康吗?",
+      "id": "SIG-0009-01"
+    },
+    {
+      "comment_id": "C-0010",
+      "type": "高频疑问",
+      "topic": "代糖安全与甜味",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "孕期人群",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "孕期可以喝含代糖的饮料吗?",
+      "id": "SIG-0010-01"
+    },
+    {
+      "comment_id": "C-0012",
+      "type": "高频疑问",
+      "topic": "咖啡因与睡眠",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "关注健康饮品的消费者",
+      "scene": "晚间或加班",
+      "emotion_level": 2,
+      "evidence_span": "晚上喝零糖可乐会不会睡不着?",
+      "id": "SIG-0012-01"
+    },
+    {
+      "comment_id": "C-0012",
+      "type": "隐藏场景",
+      "topic": "咖啡因与睡眠",
+      "need": "需要场景化选择建议",
+      "concern": "通用建议无法覆盖具体使用条件",
+      "audience": "关注健康饮品的消费者",
+      "scene": "晚间或加班",
+      "emotion_level": 2,
+      "evidence_span": "晚上喝零糖可乐会不会睡不着?",
+      "id": "SIG-0012-02"
+    },
+    {
+      "comment_id": "C-0013",
+      "type": "高频疑问",
+      "topic": "减脂与热量",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "同样写零糖,为什么不同品牌热量差这么多?",
+      "id": "SIG-0013-01"
+    },
+    {
+      "comment_id": "C-0013",
+      "type": "对比需求",
+      "topic": "减脂与热量",
+      "need": "需要可执行的选择依据",
+      "concern": "缺少统一比较标准",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "同样写零糖,为什么不同品牌热量差这么多?",
+      "id": "SIG-0013-02"
+    },
+    {
+      "comment_id": "C-0014",
+      "type": "对比需求",
+      "topic": "产品横向对比",
+      "need": "需要可执行的选择依据",
+      "concern": "缺少统一比较标准",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "想看国产和进口无糖汽水的横向测评。",
+      "id": "SIG-0014-01"
+    },
+    {
+      "comment_id": "C-0015",
+      "type": "高频疑问",
+      "topic": "无糖饮料选择",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "无糖气泡水和普通苏打水有什么区别?",
+      "id": "SIG-0015-01"
+    },
+    {
+      "comment_id": "C-0016",
+      "type": "需求矛盾",
+      "topic": "咖啡因与睡眠",
+      "need": "希望获得无糖或低负担的收益",
+      "concern": "担心替代方案带来新的代价",
+      "audience": "关注健康饮品的消费者",
+      "scene": "办公室下午",
+      "emotion_level": 2,
+      "evidence_span": "办公室下午犯困时会喝,但不想摄入太多咖啡因。",
+      "id": "SIG-0016-01"
+    },
+    {
+      "comment_id": "C-0016",
+      "type": "隐藏场景",
+      "topic": "咖啡因与睡眠",
+      "need": "需要场景化选择建议",
+      "concern": "通用建议无法覆盖具体使用条件",
+      "audience": "关注健康饮品的消费者",
+      "scene": "办公室下午",
+      "emotion_level": 2,
+      "evidence_span": "办公室下午犯困时会喝,但不想摄入太多咖啡因。",
+      "id": "SIG-0016-02"
+    },
+    {
+      "comment_id": "C-0017",
+      "type": "隐藏场景",
+      "topic": "无糖饮料选择",
+      "need": "需要场景化选择建议",
+      "concern": "通用建议无法覆盖具体使用条件",
+      "audience": "关注健康饮品的消费者",
+      "scene": "聚餐佐餐",
+      "emotion_level": 2,
+      "evidence_span": "吃火锅时想用无糖饮料替代啤酒。",
+      "id": "SIG-0017-01"
+    },
+    {
+      "comment_id": "C-0018",
+      "type": "高频疑问",
+      "topic": "无糖饮料选择",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "减脂健身人群",
+      "scene": "运动后",
+      "emotion_level": 2,
+      "evidence_span": "跑步以后喝零糖电解质水合适吗?",
+      "id": "SIG-0018-01"
+    },
+    {
+      "comment_id": "C-0018",
+      "type": "隐藏场景",
+      "topic": "无糖饮料选择",
+      "need": "需要场景化选择建议",
+      "concern": "通用建议无法覆盖具体使用条件",
+      "audience": "减脂健身人群",
+      "scene": "运动后",
+      "emotion_level": 2,
+      "evidence_span": "跑步以后喝零糖电解质水合适吗?",
+      "id": "SIG-0018-02"
+    },
+    {
+      "comment_id": "C-0019",
+      "type": "高频疑问",
+      "topic": "特殊人群适用性",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "有儿童的家庭",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "孩子总想喝甜饮料,无糖款能作为替代吗?",
+      "id": "SIG-0019-01"
+    },
+    {
+      "comment_id": "C-0020",
+      "type": "高频疑问",
+      "topic": "口腔健康",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "牙齿敏感的人喝无糖碳酸会更糟吗?",
+      "id": "SIG-0020-01"
+    },
+    {
+      "comment_id": "C-0021",
+      "type": "需求矛盾",
+      "topic": "口腔健康",
+      "need": "希望获得无糖或低负担的收益",
+      "concern": "担心替代方案带来新的代价",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 3,
+      "evidence_span": "不含糖不代表不伤牙吧,酸度也应该讲清楚。",
+      "id": "SIG-0021-01"
+    },
+    {
+      "comment_id": "C-0022",
+      "type": "高频疑问",
+      "topic": "代糖安全与甜味",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "肠胃敏感人群",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "有人说代糖会影响肠道,有没有可靠依据?",
+      "id": "SIG-0022-01"
+    },
+    {
+      "comment_id": "C-0022",
+      "type": "观点分歧",
+      "topic": "代糖安全与甜味",
+      "need": "希望验证不同说法",
+      "concern": "评论区观点相互冲突",
+      "audience": "肠胃敏感人群",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "有人说代糖会影响肠道,有没有可靠依据?",
+      "id": "SIG-0022-02"
+    },
+    {
+      "comment_id": "C-0023",
+      "type": "高频疑问",
+      "topic": "代糖安全与甜味",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 3,
+      "evidence_span": "我喝赤藓糖醇会肚子不舒服,换哪种比较好?",
+      "id": "SIG-0023-01"
+    },
+    {
+      "comment_id": "C-0024",
+      "type": "高频疑问",
+      "topic": "减脂与热量",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 3,
+      "evidence_span": "所谓零卡真的一丁点热量都没有吗?",
+      "id": "SIG-0024-01"
+    },
+    {
+      "comment_id": "C-0024",
+      "type": "观点分歧",
+      "topic": "减脂与热量",
+      "need": "希望验证不同说法",
+      "concern": "评论区观点相互冲突",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 3,
+      "evidence_span": "所谓零卡真的一丁点热量都没有吗?",
+      "id": "SIG-0024-02"
+    },
+    {
+      "comment_id": "C-0025",
+      "type": "对比需求",
+      "topic": "配料与营养标签",
+      "need": "需要可执行的选择依据",
+      "concern": "缺少统一比较标准",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "希望测评不要只比甜度,也比配料和价格。",
+      "id": "SIG-0025-01"
+    },
+    {
+      "comment_id": "C-0026",
+      "type": "需求矛盾",
+      "topic": "减脂与热量",
+      "need": "希望获得无糖或低负担的收益",
+      "concern": "担心替代方案带来新的代价",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 3,
+      "evidence_span": "无糖饮料越喝越胖是心理作用还是有原因?",
+      "id": "SIG-0026-01"
+    },
+    {
+      "comment_id": "C-0026",
+      "type": "高频疑问",
+      "topic": "减脂与热量",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 3,
+      "evidence_span": "无糖饮料越喝越胖是心理作用还是有原因?",
+      "id": "SIG-0026-02"
+    },
+    {
+      "comment_id": "C-0026",
+      "type": "观点分歧",
+      "topic": "减脂与热量",
+      "need": "希望验证不同说法",
+      "concern": "评论区观点相互冲突",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 3,
+      "evidence_span": "无糖饮料越喝越胖是心理作用还是有原因?",
+      "id": "SIG-0026-03"
+    },
+    {
+      "comment_id": "C-0027",
+      "type": "需求矛盾",
+      "topic": "控糖与血糖",
+      "need": "希望获得无糖或低负担的收益",
+      "concern": "担心替代方案带来新的代价",
+      "audience": "控糖人群",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "控糖但不减肥的人应该怎么选?",
+      "id": "SIG-0027-01"
+    },
+    {
+      "comment_id": "C-0027",
+      "type": "高频疑问",
+      "topic": "控糖与血糖",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "控糖人群",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "控糖但不减肥的人应该怎么选?",
+      "id": "SIG-0027-02"
+    },
+    {
+      "comment_id": "C-0027",
+      "type": "对比需求",
+      "topic": "控糖与血糖",
+      "need": "需要可执行的选择依据",
+      "concern": "缺少统一比较标准",
+      "audience": "控糖人群",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "控糖但不减肥的人应该怎么选?",
+      "id": "SIG-0027-03"
+    },
+    {
+      "comment_id": "C-0028",
+      "type": "高频疑问",
+      "topic": "代糖安全与甜味",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "喝惯了全糖,哪款无糖饮料的代糖味最轻?",
+      "id": "SIG-0028-01"
+    },
+    {
+      "comment_id": "C-0028",
+      "type": "对比需求",
+      "topic": "代糖安全与甜味",
+      "need": "需要可执行的选择依据",
+      "concern": "缺少统一比较标准",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "喝惯了全糖,哪款无糖饮料的代糖味最轻?",
+      "id": "SIG-0028-02"
+    },
+    {
+      "comment_id": "C-0030",
+      "type": "高频疑问",
+      "topic": "无糖饮料选择",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "无糖乌龙茶加香精算健康饮料吗?",
+      "id": "SIG-0030-01"
+    },
+    {
+      "comment_id": "C-0031",
+      "type": "高频疑问",
+      "topic": "配料与营养标签",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "配料越短就一定越好吗?",
+      "id": "SIG-0031-01"
+    },
+    {
+      "comment_id": "C-0031",
+      "type": "观点分歧",
+      "topic": "配料与营养标签",
+      "need": "希望验证不同说法",
+      "concern": "评论区观点相互冲突",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "配料越短就一定越好吗?",
+      "id": "SIG-0031-02"
+    },
+    {
+      "comment_id": "C-0032",
+      "type": "对比需求",
+      "topic": "产品横向对比",
+      "need": "需要可执行的选择依据",
+      "concern": "缺少统一比较标准",
+      "audience": "关注健康饮品的消费者",
+      "scene": "便利店即时购买",
+      "emotion_level": 2,
+      "evidence_span": "想看便利店能买到的无糖饮料红黑榜。",
+      "id": "SIG-0032-01"
+    },
+    {
+      "comment_id": "C-0032",
+      "type": "隐藏场景",
+      "topic": "产品横向对比",
+      "need": "需要场景化选择建议",
+      "concern": "通用建议无法覆盖具体使用条件",
+      "audience": "关注健康饮品的消费者",
+      "scene": "便利店即时购买",
+      "emotion_level": 2,
+      "evidence_span": "想看便利店能买到的无糖饮料红黑榜。",
+      "id": "SIG-0032-02"
+    },
+    {
+      "comment_id": "C-0033",
+      "type": "需求矛盾",
+      "topic": "无糖饮料选择",
+      "need": "希望获得无糖或低负担的收益",
+      "concern": "担心替代方案带来新的代价",
+      "audience": "关注健康饮品的消费者",
+      "scene": "聚餐佐餐",
+      "emotion_level": 3,
+      "evidence_span": "聚餐时点无糖饮料,朋友总说是在自我安慰。",
+      "id": "SIG-0033-01"
+    },
+    {
+      "comment_id": "C-0033",
+      "type": "观点分歧",
+      "topic": "无糖饮料选择",
+      "need": "希望验证不同说法",
+      "concern": "评论区观点相互冲突",
+      "audience": "关注健康饮品的消费者",
+      "scene": "聚餐佐餐",
+      "emotion_level": 3,
+      "evidence_span": "聚餐时点无糖饮料,朋友总说是在自我安慰。",
+      "id": "SIG-0033-02"
+    },
+    {
+      "comment_id": "C-0033",
+      "type": "隐藏场景",
+      "topic": "无糖饮料选择",
+      "need": "需要场景化选择建议",
+      "concern": "通用建议无法覆盖具体使用条件",
+      "audience": "关注健康饮品的消费者",
+      "scene": "聚餐佐餐",
+      "emotion_level": 3,
+      "evidence_span": "聚餐时点无糖饮料,朋友总说是在自我安慰。",
+      "id": "SIG-0033-03"
+    },
+    {
+      "comment_id": "C-0034",
+      "type": "隐藏场景",
+      "topic": "无糖饮料选择",
+      "need": "需要场景化选择建议",
+      "concern": "通用建议无法覆盖具体使用条件",
+      "audience": "关注健康饮品的消费者",
+      "scene": "戒糖过渡期",
+      "emotion_level": 2,
+      "evidence_span": "戒糖第一周用零糖汽水过渡,确实容易坚持。",
+      "id": "SIG-0034-01"
+    },
+    {
+      "comment_id": "C-0035",
+      "type": "高频疑问",
+      "topic": "代糖安全与甜味",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "无糖饮料能不能帮助戒掉甜味依赖?",
+      "id": "SIG-0035-01"
+    },
+    {
+      "comment_id": "C-0036",
+      "type": "高频疑问",
+      "topic": "肠胃耐受",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "肠胃敏感人群",
+      "scene": "早晨空腹",
+      "emotion_level": 3,
+      "evidence_span": "早上空腹喝零糖咖啡会刺激胃吗?",
+      "id": "SIG-0036-01"
+    },
+    {
+      "comment_id": "C-0036",
+      "type": "隐藏场景",
+      "topic": "肠胃耐受",
+      "need": "需要场景化选择建议",
+      "concern": "通用建议无法覆盖具体使用条件",
+      "audience": "肠胃敏感人群",
+      "scene": "早晨空腹",
+      "emotion_level": 3,
+      "evidence_span": "早上空腹喝零糖咖啡会刺激胃吗?",
+      "id": "SIG-0036-02"
+    },
+    {
+      "comment_id": "C-0037",
+      "type": "高频疑问",
+      "topic": "肠胃耐受",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "肠胃敏感人群",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "乳糖不耐受的人选无糖乳饮料要看什么?",
+      "id": "SIG-0037-01"
+    },
+    {
+      "comment_id": "C-0038",
+      "type": "高频疑问",
+      "topic": "配料与营养标签",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "果汁写着无添加糖,和无糖是一个意思吗?",
+      "id": "SIG-0038-01"
+    },
+    {
+      "comment_id": "C-0039",
+      "type": "高频疑问",
+      "topic": "无糖饮料选择",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "每100毫升糖低于多少才可以标无糖?",
+      "id": "SIG-0039-01"
+    },
+    {
+      "comment_id": "C-0040",
+      "type": "高频疑问",
+      "topic": "代糖安全与甜味",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "希望解释营养成分表的零和配料表代糖怎么一起看。",
+      "id": "SIG-0040-01"
+    },
+    {
+      "comment_id": "C-0041",
+      "type": "高频疑问",
+      "topic": "减脂与热量",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 3,
+      "evidence_span": "同一品牌普通版和零糖版到底差多少热量?",
+      "id": "SIG-0041-01"
+    },
+    {
+      "comment_id": "C-0041",
+      "type": "观点分歧",
+      "topic": "减脂与热量",
+      "need": "希望验证不同说法",
+      "concern": "评论区观点相互冲突",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 3,
+      "evidence_span": "同一品牌普通版和零糖版到底差多少热量?",
+      "id": "SIG-0041-02"
+    },
+    {
+      "comment_id": "C-0041",
+      "type": "对比需求",
+      "topic": "减脂与热量",
+      "need": "需要可执行的选择依据",
+      "concern": "缺少统一比较标准",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 3,
+      "evidence_span": "同一品牌普通版和零糖版到底差多少热量?",
+      "id": "SIG-0041-03"
+    },
+    {
+      "comment_id": "C-0042",
+      "type": "高频疑问",
+      "topic": "代糖安全与甜味",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 3,
+      "evidence_span": "代糖安全剂量普通人怎么理解,别只说抛开剂量谈毒性。",
+      "id": "SIG-0042-01"
+    },
+    {
+      "comment_id": "C-0043",
+      "type": "高频疑问",
+      "topic": "特殊人群适用性",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "特殊健康需求人群",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "有痛风的人能喝无糖果味饮料吗?",
+      "id": "SIG-0043-01"
+    },
+    {
+      "comment_id": "C-0044",
+      "type": "隐藏场景",
+      "topic": "咖啡因与睡眠",
+      "need": "需要场景化选择建议",
+      "concern": "通用建议无法覆盖具体使用条件",
+      "audience": "关注健康饮品的消费者",
+      "scene": "晚间或加班",
+      "emotion_level": 2,
+      "evidence_span": "晚上加班嘴馋,想找没有咖啡因的无糖饮料。",
+      "id": "SIG-0044-01"
+    },
+    {
+      "comment_id": "C-0045",
+      "type": "高频疑问",
+      "topic": "代糖安全与甜味",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "关注健康饮品的消费者",
+      "scene": "",
+      "emotion_level": 2,
+      "evidence_span": "无糖可乐放久了为什么甜味变化很明显?",
+      "id": "SIG-0045-01"
+    },
+    {
+      "comment_id": "C-0046",
+      "type": "隐藏场景",
+      "topic": "代糖安全与甜味",
+      "need": "需要场景化选择建议",
+      "concern": "通用建议无法覆盖具体使用条件",
+      "audience": "关注健康饮品的消费者",
+      "scene": "不同饮用温度",
+      "emotion_level": 2,
+      "evidence_span": "冰镇时好喝,常温时代糖味太重了。",
+      "id": "SIG-0046-01"
+    },
+    {
+      "comment_id": "C-0047",
+      "type": "高频疑问",
+      "topic": "控糖与血糖",
+      "need": "需要清晰、可核验的解释",
+      "concern": "现有内容没有直接回答",
+      "audience": "控糖人群",
+      "scene": "用餐前后",
+      "emotion_level": 2,
+      "evidence_span": "餐前喝和餐后喝对血糖反应有区别吗?",
+      "id": "SIG-0047-01"
+    },
+    {
+      "comment_id": "C-0047",
+      "type": "隐藏场景",
+      "topic": "控糖与血糖",
+      "need": "需要场景化选择建议",
+      "concern": "通用建议无法覆盖具体使用条件",
+      "audience": "控糖人群",
+      "scene": "用餐前后",
+      "emotion_level": 2,
+      "evidence_span": "餐前喝和餐后喝对血糖反应有区别吗?",
+      "id": "SIG-0047-02"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "OPP-002",
+      "task_id": "T-DEMO",
+      "name": "看懂代糖安全与甜味",
+      "insight": "用户希望降低糖分负担，但仍需要可信的代糖安全边界和口感选择依据。",
+      "signal_types": [
+        "对比需求",
+        "观点分歧",
+        "隐藏场景",
+        "需求矛盾",
+        "高频疑问"
+      ],
+      "comment_ids": [
+        "C-0001",
+        "C-0004",
+        "C-0010",
+        "C-0022",
+        "C-0023",
+        "C-0028",
+        "C-0035",
+        "C-0040",
+        "C-0042",
+        "C-0045",
+        "C-0046"
+      ],
+      "audiences": [
+        "关注健康饮品的消费者",
+        "肠胃敏感人群",
+        "孕期人群"
+      ],
+      "scenes": [
+        "不同饮用温度"
+      ],
+      "tension_level": 5,
+      "emotion_level": 3,
+      "audience_clarity": 3,
+      "content_convertibility": 5,
+      "signal_ids": [
+        "SIG-0001-01",
+        "SIG-0001-02",
+        "SIG-0004-01",
+        "SIG-0004-02",
+        "SIG-0004-03",
+        "SIG-0010-01",
+        "SIG-0022-01",
+        "SIG-0022-02",
+        "SIG-0023-01",
+        "SIG-0028-01",
+        "SIG-0028-02",
+        "SIG-0035-01",
+        "SIG-0040-01",
+        "SIG-0042-01",
+        "SIG-0045-01",
+        "SIG-0046-01"
+      ],
+      "cluster_cohesion": 1.0,
+      "label_consistency": 0.625,
+      "weak_signal": false,
+      "comment_count": 11,
+      "coverage_rate": 0.22448979591836735,
+      "gap_score": 88,
+      "priority": "优先策划",
+      "confidence": "高",
+      "score_detail": {
+        "coverage": {
+          "score": 100.0,
+          "weight": 0.3,
+          "explanation": "由机会唯一评论数除以有效评论总数计算。"
+        },
+        "tension": {
+          "level": 5,
+          "score": 100,
+          "weight": 0.25,
+          "explanation": "需求期待与顾虑的冲突程度。"
+        },
+        "emotion": {
+          "level": 3,
+          "score": 60,
+          "weight": 0.15,
+          "explanation": "评论表达的迫切、质疑或强烈程度。"
+        },
+        "audience": {
+          "level": 3,
+          "score": 60,
+          "weight": 0.15,
+          "explanation": "目标人群是否清晰可识别。"
+        },
+        "convertibility": {
+          "level": 5,
+          "score": 100,
+          "weight": 0.15,
+          "explanation": "机会转化为具体内容方案的难易度。"
+        }
+      }
+    },
+    {
+      "id": "OPP-007",
+      "task_id": "T-DEMO",
+      "name": "看懂无糖饮料选择",
+      "insight": "用户需要把抽象健康判断转化为具体、可执行的无糖饮料选择方法。",
+      "signal_types": [
+        "观点分歧",
+        "隐藏场景",
+        "需求矛盾",
+        "高频疑问"
+      ],
+      "comment_ids": [
+        "C-0002",
+        "C-0005",
+        "C-0009",
+        "C-0015",
+        "C-0017",
+        "C-0018",
+        "C-0030",
+        "C-0033",
+        "C-0034",
+        "C-0039"
+      ],
+      "audiences": [
+        "关注健康饮品的消费者",
+        "减脂健身人群"
+      ],
+      "scenes": [
+        "聚餐佐餐",
+        "运动后",
+        "戒糖过渡期"
+      ],
+      "tension_level": 5,
+      "emotion_level": 2,
+      "audience_clarity": 3,
+      "content_convertibility": 5,
+      "signal_ids": [
+        "SIG-0002-01",
+        "SIG-0002-02",
+        "SIG-0005-01",
+        "SIG-0009-01",
+        "SIG-0015-01",
+        "SIG-0017-01",
+        "SIG-0018-01",
+        "SIG-0018-02",
+        "SIG-0030-01",
+        "SIG-0033-01",
+        "SIG-0033-02",
+        "SIG-0033-03",
+        "SIG-0034-01",
+        "SIG-0039-01"
+      ],
+      "cluster_cohesion": 1.0,
+      "label_consistency": 0.42857142857142855,
+      "weak_signal": false,
+      "comment_count": 10,
+      "coverage_rate": 0.20408163265306123,
+      "gap_score": 85,
+      "priority": "优先策划",
+      "confidence": "高",
+      "score_detail": {
+        "coverage": {
+          "score": 100.0,
+          "weight": 0.3,
+          "explanation": "由机会唯一评论数除以有效评论总数计算。"
+        },
+        "tension": {
+          "level": 5,
+          "score": 100,
+          "weight": 0.25,
+          "explanation": "需求期待与顾虑的冲突程度。"
+        },
+        "emotion": {
+          "level": 2,
+          "score": 40,
+          "weight": 0.15,
+          "explanation": "评论表达的迫切、质疑或强烈程度。"
+        },
+        "audience": {
+          "level": 3,
+          "score": 60,
+          "weight": 0.15,
+          "explanation": "目标人群是否清晰可识别。"
+        },
+        "convertibility": {
+          "level": 5,
+          "score": 100,
+          "weight": 0.15,
+          "explanation": "机会转化为具体内容方案的难易度。"
+        }
+      }
+    },
+    {
+      "id": "OPP-003",
+      "task_id": "T-DEMO",
+      "name": "看懂减脂与热量",
+      "insight": "减脂人群需要区分零糖、零卡与体重管理效果，避免把单一标签当作结论。",
+      "signal_types": [
+        "对比需求",
+        "观点分歧",
+        "隐藏场景",
+        "需求矛盾",
+        "高频疑问"
+      ],
+      "comment_ids": [
+        "C-0003",
+        "C-0008",
+        "C-0013",
+        "C-0024",
+        "C-0026",
+        "C-0041"
+      ],
+      "audiences": [
+        "关注健康饮品的消费者",
+        "减脂健身人群"
+      ],
+      "scenes": [
+        "运动后"
+      ],
+      "tension_level": 5,
+      "emotion_level": 3,
+      "audience_clarity": 3,
+      "content_convertibility": 5,
+      "signal_ids": [
+        "SIG-0003-01",
+        "SIG-0008-01",
+        "SIG-0008-02",
+        "SIG-0013-01",
+        "SIG-0013-02",
+        "SIG-0024-01",
+        "SIG-0024-02",
+        "SIG-0026-01",
+        "SIG-0026-02",
+        "SIG-0026-03",
+        "SIG-0041-01",
+        "SIG-0041-02",
+        "SIG-0041-03"
+      ],
+      "cluster_cohesion": 1.0,
+      "label_consistency": 0.38461538461538464,
+      "weak_signal": false,
+      "comment_count": 6,
+      "coverage_rate": 0.12244897959183673,
+      "gap_score": 76,
+      "priority": "值得关注",
+      "confidence": "高",
+      "score_detail": {
+        "coverage": {
+          "score": 61.22,
+          "weight": 0.3,
+          "explanation": "由机会唯一评论数除以有效评论总数计算。"
+        },
+        "tension": {
+          "level": 5,
+          "score": 100,
+          "weight": 0.25,
+          "explanation": "需求期待与顾虑的冲突程度。"
+        },
+        "emotion": {
+          "level": 3,
+          "score": 60,
+          "weight": 0.15,
+          "explanation": "评论表达的迫切、质疑或强烈程度。"
+        },
+        "audience": {
+          "level": 3,
+          "score": 60,
+          "weight": 0.15,
+          "explanation": "目标人群是否清晰可识别。"
+        },
+        "convertibility": {
+          "level": 5,
+          "score": 100,
+          "weight": 0.15,
+          "explanation": "机会转化为具体内容方案的难易度。"
+        }
+      }
+    },
+    {
+      "id": "OPP-005",
+      "task_id": "T-DEMO",
+      "name": "看懂咖啡因与睡眠",
+      "insight": "用户不仅关心糖，还需要按饮用时间识别咖啡因带来的睡眠代价。",
+      "signal_types": [
+        "隐藏场景",
+        "需求矛盾",
+        "高频疑问"
+      ],
+      "comment_ids": [
+        "C-0012",
+        "C-0016",
+        "C-0044"
+      ],
+      "audiences": [
+        "关注健康饮品的消费者"
+      ],
+      "scenes": [
+        "晚间或加班",
+        "办公室下午"
+      ],
+      "tension_level": 5,
+      "emotion_level": 2,
+      "audience_clarity": 4,
+      "content_convertibility": 5,
+      "signal_ids": [
+        "SIG-0012-01",
+        "SIG-0012-02",
+        "SIG-0016-01",
+        "SIG-0016-02",
+        "SIG-0044-01"
+      ],
+      "cluster_cohesion": 1.0,
+      "label_consistency": 0.6,
+      "weak_signal": false,
+      "comment_count": 3,
+      "coverage_rate": 0.061224489795918366,
+      "gap_score": 67,
+      "priority": "值得关注",
+      "confidence": "中",
+      "score_detail": {
+        "coverage": {
+          "score": 30.61,
+          "weight": 0.3,
+          "explanation": "由机会唯一评论数除以有效评论总数计算。"
+        },
+        "tension": {
+          "level": 5,
+          "score": 100,
+          "weight": 0.25,
+          "explanation": "需求期待与顾虑的冲突程度。"
+        },
+        "emotion": {
+          "level": 2,
+          "score": 40,
+          "weight": 0.15,
+          "explanation": "评论表达的迫切、质疑或强烈程度。"
+        },
+        "audience": {
+          "level": 4,
+          "score": 80,
+          "weight": 0.15,
+          "explanation": "目标人群是否清晰可识别。"
+        },
+        "convertibility": {
+          "level": 5,
+          "score": 100,
+          "weight": 0.15,
+          "explanation": "机会转化为具体内容方案的难易度。"
+        }
+      }
+    },
+    {
+      "id": "OPP-006",
+      "task_id": "T-DEMO",
+      "name": "看懂控糖与血糖",
+      "insight": "控糖人群关注零糖标识与真实血糖影响之间是否一致。",
+      "signal_types": [
+        "对比需求",
+        "隐藏场景",
+        "需求矛盾",
+        "高频疑问"
+      ],
+      "comment_ids": [
+        "C-0006",
+        "C-0027",
+        "C-0047"
+      ],
+      "audiences": [
+        "控糖人群"
+      ],
+      "scenes": [
+        "用餐前后"
+      ],
+      "tension_level": 5,
+      "emotion_level": 2,
+      "audience_clarity": 4,
+      "content_convertibility": 5,
+      "signal_ids": [
+        "SIG-0006-01",
+        "SIG-0027-01",
+        "SIG-0027-02",
+        "SIG-0027-03",
+        "SIG-0047-01",
+        "SIG-0047-02"
+      ],
+      "cluster_cohesion": 1.0,
+      "label_consistency": 0.5,
+      "weak_signal": false,
+      "comment_count": 3,
+      "coverage_rate": 0.061224489795918366,
+      "gap_score": 67,
+      "priority": "值得关注",
+      "confidence": "中",
+      "score_detail": {
+        "coverage": {
+          "score": 30.61,
+          "weight": 0.3,
+          "explanation": "由机会唯一评论数除以有效评论总数计算。"
+        },
+        "tension": {
+          "level": 5,
+          "score": 100,
+          "weight": 0.25,
+          "explanation": "需求期待与顾虑的冲突程度。"
+        },
+        "emotion": {
+          "level": 2,
+          "score": 40,
+          "weight": 0.15,
+          "explanation": "评论表达的迫切、质疑或强烈程度。"
+        },
+        "audience": {
+          "level": 4,
+          "score": 80,
+          "weight": 0.15,
+          "explanation": "目标人群是否清晰可识别。"
+        },
+        "convertibility": {
+          "level": 5,
+          "score": 100,
+          "weight": 0.15,
+          "explanation": "机会转化为具体内容方案的难易度。"
+        }
+      }
+    },
+    {
+      "id": "OPP-010",
+      "task_id": "T-DEMO",
+      "name": "看懂配料与营养标签",
+      "insight": "用户看到了配料表与营养成分表之间的信息差，需要一套可操作的读标方法。",
+      "signal_types": [
+        "对比需求",
+        "观点分歧",
+        "高频疑问"
+      ],
+      "comment_ids": [
+        "C-0007",
+        "C-0025",
+        "C-0031",
+        "C-0038"
+      ],
+      "audiences": [
+        "关注健康饮品的消费者"
+      ],
+      "scenes": [],
+      "tension_level": 4,
+      "emotion_level": 2,
+      "audience_clarity": 4,
+      "content_convertibility": 5,
+      "signal_ids": [
+        "SIG-0007-01",
+        "SIG-0025-01",
+        "SIG-0031-01",
+        "SIG-0031-02",
+        "SIG-0038-01"
+      ],
+      "cluster_cohesion": 1.0,
+      "label_consistency": 0.6,
+      "weak_signal": false,
+      "comment_count": 4,
+      "coverage_rate": 0.08163265306122448,
+      "gap_score": 65,
+      "priority": "值得关注",
+      "confidence": "中",
+      "score_detail": {
+        "coverage": {
+          "score": 40.82,
+          "weight": 0.3,
+          "explanation": "由机会唯一评论数除以有效评论总数计算。"
+        },
+        "tension": {
+          "level": 4,
+          "score": 80,
+          "weight": 0.25,
+          "explanation": "需求期待与顾虑的冲突程度。"
+        },
+        "emotion": {
+          "level": 2,
+          "score": 40,
+          "weight": 0.15,
+          "explanation": "评论表达的迫切、质疑或强烈程度。"
+        },
+        "audience": {
+          "level": 4,
+          "score": 80,
+          "weight": 0.15,
+          "explanation": "目标人群是否清晰可识别。"
+        },
+        "convertibility": {
+          "level": 5,
+          "score": 100,
+          "weight": 0.15,
+          "explanation": "机会转化为具体内容方案的难易度。"
+        }
+      }
+    },
+    {
+      "id": "OPP-004",
+      "task_id": "T-DEMO",
+      "name": "看懂口腔健康",
+      "insight": "无糖并不自动等于不伤牙，用户需要同时理解酸度与饮用习惯。",
+      "signal_types": [
+        "需求矛盾",
+        "高频疑问"
+      ],
+      "comment_ids": [
+        "C-0020",
+        "C-0021"
+      ],
+      "audiences": [
+        "关注健康饮品的消费者"
+      ],
+      "scenes": [],
+      "tension_level": 5,
+      "emotion_level": 2,
+      "audience_clarity": 4,
+      "content_convertibility": 5,
+      "signal_ids": [
+        "SIG-0020-01",
+        "SIG-0021-01"
+      ],
+      "cluster_cohesion": 1.0,
+      "label_consistency": 0.5,
+      "weak_signal": true,
+      "comment_count": 2,
+      "coverage_rate": 0.04081632653061224,
+      "gap_score": 64,
+      "priority": "值得关注",
+      "confidence": "低",
+      "score_detail": {
+        "coverage": {
+          "score": 20.41,
+          "weight": 0.3,
+          "explanation": "由机会唯一评论数除以有效评论总数计算。"
+        },
+        "tension": {
+          "level": 5,
+          "score": 100,
+          "weight": 0.25,
+          "explanation": "需求期待与顾虑的冲突程度。"
+        },
+        "emotion": {
+          "level": 2,
+          "score": 40,
+          "weight": 0.15,
+          "explanation": "评论表达的迫切、质疑或强烈程度。"
+        },
+        "audience": {
+          "level": 4,
+          "score": 80,
+          "weight": 0.15,
+          "explanation": "目标人群是否清晰可识别。"
+        },
+        "convertibility": {
+          "level": 5,
+          "score": 100,
+          "weight": 0.15,
+          "explanation": "机会转化为具体内容方案的难易度。"
+        }
+      }
+    },
+    {
+      "id": "OPP-009",
+      "task_id": "T-DEMO",
+      "name": "看懂肠胃耐受",
+      "insight": "肠胃敏感用户需要了解不同甜味剂和饮品配方的耐受差异。",
+      "signal_types": [
+        "隐藏场景",
+        "高频疑问"
+      ],
+      "comment_ids": [
+        "C-0036",
+        "C-0037"
+      ],
+      "audiences": [
+        "肠胃敏感人群"
+      ],
+      "scenes": [
+        "早晨空腹"
+      ],
+      "tension_level": 3,
+      "emotion_level": 3,
+      "audience_clarity": 4,
+      "content_convertibility": 5,
+      "signal_ids": [
+        "SIG-0036-01",
+        "SIG-0036-02",
+        "SIG-0037-01"
+      ],
+      "cluster_cohesion": 1.0,
+      "label_consistency": 0.6666666666666666,
+      "weak_signal": true,
+      "comment_count": 2,
+      "coverage_rate": 0.04081632653061224,
+      "gap_score": 57,
+      "priority": "补充观察",
+      "confidence": "低",
+      "score_detail": {
+        "coverage": {
+          "score": 20.41,
+          "weight": 0.3,
+          "explanation": "由机会唯一评论数除以有效评论总数计算。"
+        },
+        "tension": {
+          "level": 3,
+          "score": 60,
+          "weight": 0.25,
+          "explanation": "需求期待与顾虑的冲突程度。"
+        },
+        "emotion": {
+          "level": 3,
+          "score": 60,
+          "weight": 0.15,
+          "explanation": "评论表达的迫切、质疑或强烈程度。"
+        },
+        "audience": {
+          "level": 4,
+          "score": 80,
+          "weight": 0.15,
+          "explanation": "目标人群是否清晰可识别。"
+        },
+        "convertibility": {
+          "level": 5,
+          "score": 100,
+          "weight": 0.15,
+          "explanation": "机会转化为具体内容方案的难易度。"
+        }
+      }
+    },
+    {
+      "id": "OPP-001",
+      "task_id": "T-DEMO",
+      "name": "选择产品横向对比",
+      "insight": "用户需要以配料、甜味、热量与价格为共同标准进行横向选择。",
+      "signal_types": [
+        "对比需求",
+        "隐藏场景"
+      ],
+      "comment_ids": [
+        "C-0014",
+        "C-0032"
+      ],
+      "audiences": [
+        "关注健康饮品的消费者"
+      ],
+      "scenes": [
+        "便利店即时购买"
+      ],
+      "tension_level": 3,
+      "emotion_level": 2,
+      "audience_clarity": 4,
+      "content_convertibility": 5,
+      "signal_ids": [
+        "SIG-0014-01",
+        "SIG-0032-01",
+        "SIG-0032-02"
+      ],
+      "cluster_cohesion": 1.0,
+      "label_consistency": 0.6666666666666666,
+      "weak_signal": true,
+      "comment_count": 2,
+      "coverage_rate": 0.04081632653061224,
+      "gap_score": 54,
+      "priority": "补充观察",
+      "confidence": "低",
+      "score_detail": {
+        "coverage": {
+          "score": 20.41,
+          "weight": 0.3,
+          "explanation": "由机会唯一评论数除以有效评论总数计算。"
+        },
+        "tension": {
+          "level": 3,
+          "score": 60,
+          "weight": 0.25,
+          "explanation": "需求期待与顾虑的冲突程度。"
+        },
+        "emotion": {
+          "level": 2,
+          "score": 40,
+          "weight": 0.15,
+          "explanation": "评论表达的迫切、质疑或强烈程度。"
+        },
+        "audience": {
+          "level": 4,
+          "score": 80,
+          "weight": 0.15,
+          "explanation": "目标人群是否清晰可识别。"
+        },
+        "convertibility": {
+          "level": 5,
+          "score": 100,
+          "weight": 0.15,
+          "explanation": "机会转化为具体内容方案的难易度。"
+        }
+      }
+    },
+    {
+      "id": "OPP-008",
+      "task_id": "T-DEMO",
+      "name": "看懂特殊人群适用性",
+      "insight": "孕期、儿童及特殊健康需求人群需要明确的适用边界和核验提示。",
+      "signal_types": [
+        "高频疑问"
+      ],
+      "comment_ids": [
+        "C-0019",
+        "C-0043"
+      ],
+      "audiences": [
+        "有儿童的家庭",
+        "特殊健康需求人群"
+      ],
+      "scenes": [],
+      "tension_level": 3,
+      "emotion_level": 2,
+      "audience_clarity": 3,
+      "content_convertibility": 5,
+      "signal_ids": [
+        "SIG-0019-01",
+        "SIG-0043-01"
+      ],
+      "cluster_cohesion": 1.0,
+      "label_consistency": 1.0,
+      "weak_signal": true,
+      "comment_count": 2,
+      "coverage_rate": 0.04081632653061224,
+      "gap_score": 51,
+      "priority": "补充观察",
+      "confidence": "低",
+      "score_detail": {
+        "coverage": {
+          "score": 20.41,
+          "weight": 0.3,
+          "explanation": "由机会唯一评论数除以有效评论总数计算。"
+        },
+        "tension": {
+          "level": 3,
+          "score": 60,
+          "weight": 0.25,
+          "explanation": "需求期待与顾虑的冲突程度。"
+        },
+        "emotion": {
+          "level": 2,
+          "score": 40,
+          "weight": 0.15,
+          "explanation": "评论表达的迫切、质疑或强烈程度。"
+        },
+        "audience": {
+          "level": 3,
+          "score": 60,
+          "weight": 0.15,
+          "explanation": "目标人群是否清晰可识别。"
+        },
+        "convertibility": {
+          "level": 5,
+          "score": 100,
+          "weight": 0.15,
+          "explanation": "机会转化为具体内容方案的难易度。"
+        }
+      }
+    }
+  ],
+  "processed_comment_ids": [
+    "C-0001",
+    "C-0002",
+    "C-0003",
+    "C-0004",
+    "C-0005",
+    "C-0006",
+    "C-0007",
+    "C-0008",
+    "C-0009",
+    "C-0010",
+    "C-0011",
+    "C-0012",
+    "C-0013",
+    "C-0014",
+    "C-0015",
+    "C-0016",
+    "C-0017",
+    "C-0018",
+    "C-0019",
+    "C-0020",
+    "C-0021",
+    "C-0022",
+    "C-0023",
+    "C-0024",
+    "C-0025",
+    "C-0026",
+    "C-0027",
+    "C-0028",
+    "C-0029",
+    "C-0030",
+    "C-0031",
+    "C-0032",
+    "C-0033",
+    "C-0034",
+    "C-0035",
+    "C-0036",
+    "C-0037",
+    "C-0038",
+    "C-0039",
+    "C-0040",
+    "C-0041",
+    "C-0042",
+    "C-0043",
+    "C-0044",
+    "C-0045",
+    "C-0046",
+    "C-0047",
+    "C-0048",
+    "C-0049"
+  ],
+  "failed_batches": []
+}

@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>隙见研习社封面</title>
+  <style>
+    :root {
+      --canvas: #f3efe6;
+      --paper: #fffdf8;
+      --paper-soft: #f8f4ec;
+      --ink: #11110f;
+      --muted: #625f58;
+      --subtle: #969087;
+      --line: #e3dbcf;
+      --line-strong: #cfc4b6;
+      --accent: #f04a17;
+      --accent-dark: #b72d09;
+      --blue: #4f86ca;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #ddd5ca;
+      font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif;
+    }
+
+    .cover {
+      position: relative;
+      width: 1600px;
+      height: 900px;
+      overflow: hidden;
+      background:
+        linear-gradient(90deg, rgba(255, 255, 255, .32), rgba(255, 255, 255, 0) 35%),
+        var(--canvas);
+      color: var(--ink);
+      isolation: isolate;
+    }
+
+    .cover::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      opacity: .38;
+      background-image:
+        radial-gradient(rgba(17, 17, 15, .055) 1px, transparent 1.2px),
+        linear-gradient(135deg, rgba(255, 255, 255, .55), rgba(255, 255, 255, 0) 38%);
+      background-size: 18px 18px, 100% 100%;
+      mix-blend-mode: multiply;
+      z-index: -3;
+    }
+
+    .brand {
+      position: absolute;
+      top: 62px;
+      left: 78px;
+      display: flex;
+      align-items: center;
+      gap: 22px;
+    }
+
+    .brand img {
+      width: 206px;
+      height: 76px;
+      object-fit: cover;
+      object-position: left center;
+      filter: contrast(1.04);
+    }
+
+    .event {
+      padding-left: 22px;
+      border-left: 2px solid var(--line-strong);
+      color: var(--muted);
+      font-size: 22px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .main {
+      position: absolute;
+      left: 82px;
+      top: 198px;
+      width: 760px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 30px;
+      color: var(--accent);
+      font-size: 26px;
+      font-weight: 900;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 46px;
+      height: 4px;
+      background: var(--accent);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 92px;
+      line-height: 1.04;
+      font-weight: 950;
+      letter-spacing: 0;
+    }
+
+    h1 .accent {
+      color: var(--accent);
+    }
+
+    .subtitle {
+      width: 690px;
+      margin-top: 34px;
+      color: var(--muted);
+      font-size: 31px;
+      line-height: 1.55;
+      font-weight: 600;
+    }
+
+    .tag-row {
+      display: flex;
+      gap: 16px;
+      margin-top: 48px;
+    }
+
+    .tag {
+      padding: 13px 18px;
+      border: 1px solid var(--line-strong);
+      background: rgba(255, 253, 248, .76);
+      color: var(--ink);
+      font-size: 21px;
+      font-weight: 800;
+      box-shadow: 0 8px 22px rgba(62, 43, 25, .08);
+    }
+
+    .right {
+      position: absolute;
+      top: 86px;
+      right: 78px;
+      width: 560px;
+      height: 730px;
+    }
+
+    .split {
+      position: absolute;
+      top: 64px;
+      left: 164px;
+      width: 72px;
+      height: 600px;
+      background: var(--accent);
+      clip-path: polygon(56% 0, 82% 8%, 52% 20%, 70% 33%, 38% 45%, 62% 59%, 32% 76%, 54% 100%, 20% 92%, 39% 72%, 14% 58%, 40% 43%, 18% 27%, 42% 12%);
+      box-shadow: 0 0 36px rgba(240, 74, 23, .42);
+      z-index: -1;
+    }
+
+    .bubble {
+      position: absolute;
+      max-width: 320px;
+      padding: 18px 22px;
+      background: rgba(255, 253, 248, .78);
+      border: 1px solid rgba(207, 196, 182, .86);
+      color: rgba(98, 95, 88, .82);
+      font-size: 22px;
+      line-height: 1.38;
+      font-weight: 700;
+      box-shadow: 0 10px 24px rgba(62, 43, 25, .09);
+    }
+
+    .bubble::after {
+      content: "";
+      position: absolute;
+      left: 28px;
+      bottom: -13px;
+      width: 20px;
+      height: 20px;
+      background: inherit;
+      border-left: 1px solid rgba(207, 196, 182, .86);
+      border-bottom: 1px solid rgba(207, 196, 182, .86);
+      transform: skew(-18deg) rotate(-18deg);
+    }
+
+    .bubble.one {
+      top: 4px;
+      right: 30px;
+      transform: rotate(4deg);
+      opacity: .58;
+    }
+
+    .bubble.two {
+      top: 156px;
+      left: 0;
+      transform: rotate(-5deg);
+      opacity: .75;
+    }
+
+    .bubble.three {
+      top: 332px;
+      right: 0;
+      transform: rotate(3deg);
+      opacity: .7;
+    }
+
+    .evidence-card {
+      position: absolute;
+      right: 70px;
+      bottom: 36px;
+      width: 390px;
+      padding: 30px 34px 32px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-top: 6px solid var(--accent);
+      box-shadow: 0 18px 42px rgba(62, 43, 25, .16);
+    }
+
+    .card-label {
+      color: var(--accent);
+      font-size: 23px;
+      font-weight: 900;
+    }
+
+    .card-title {
+      margin-top: 20px;
+      color: var(--ink);
+      font-size: 36px;
+      line-height: 1.18;
+      font-weight: 950;
+    }
+
+    .score {
+      display: flex;
+      align-items: baseline;
+      gap: 14px;
+      margin-top: 22px;
+    }
+
+    .score strong {
+      color: var(--accent);
+      font-size: 78px;
+      line-height: 1;
+      font-weight: 950;
+    }
+
+    .score span {
+      color: var(--muted);
+      font-size: 22px;
+      font-weight: 800;
+    }
+
+    .bar {
+      margin-top: 18px;
+      height: 9px;
+      background: #e6dfd3;
+      overflow: hidden;
+    }
+
+    .bar i {
+      display: block;
+      width: 78%;
+      height: 100%;
+      background: var(--blue);
+    }
+
+    .evidence {
+      margin-top: 22px;
+      padding-left: 18px;
+      border-left: 4px solid var(--line-strong);
+      color: var(--muted);
+      font-size: 22px;
+      line-height: 1.42;
+      font-weight: 650;
+    }
+
+    .footer {
+      position: absolute;
+      left: 82px;
+      bottom: 58px;
+      color: var(--subtle);
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .mark {
+      position: absolute;
+      right: 74px;
+      bottom: 58px;
+      color: var(--accent);
+      font-size: 20px;
+      font-weight: 900;
+    }
+  </style>
+</head>
+<body>
+  <main class="cover" aria-label="隙见研习社封面">
+    <div class="brand">
+      <img src="../static/images/logo-large.png" alt="隙见 XIJIAN">
+      <div class="event">AI+∞ 开发者创作大赛</div>
+    </div>
+
+    <section class="main">
+      <div class="eyebrow">AI + 运营</div>
+      <h1>从评论区<br>看见<span class="accent">下一个</span><br>值得做的选题</h1>
+      <p class="subtitle">把真实评论里的疑问、顾虑和争议，整理成可追溯的内容机会与选题 Brief。</p>
+      <div class="tag-row">
+        <div class="tag">评论证据链</div>
+        <div class="tag">隙值评分</div>
+        <div class="tag">内容 Brief</div>
+      </div>
+    </section>
+
+    <section class="right" aria-hidden="true">
+      <div class="split"></div>
+      <div class="bubble one">“无糖真的不会胖吗？”</div>
+      <div class="bubble two">“配料表看不懂，求解释。”</div>
+      <div class="bubble three">“运动后喝这个可以吗？”</div>
+      <div class="evidence-card">
+        <div class="card-label">内容机会</div>
+        <div class="card-title">无糖饮料真的不会胖吗？</div>
+        <div class="score">
+          <strong>87</strong>
+          <span>隙值</span>
+        </div>
+        <div class="bar"><i></i></div>
+        <div class="evidence">68 / 326 条评论支持<br>可回溯原始证据</div>
+      </div>
+    </section>
+
+    <div class="footer">隙见 XIJIAN · 评论区选题挖掘机</div>
+    <div class="mark">让想法被看见</div>
+  </main>
+</body>
+</html>

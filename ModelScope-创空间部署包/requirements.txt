@@ -1,0 +1,8 @@
+gradio==4.44.1
+fastapi==0.115.14
+pydantic==2.10.6
+pandas==2.3.3
+openpyxl==3.1.5
+scikit-learn==1.9.0
+python-dotenv==1.2.2
+huggingface-hub==0.36.2

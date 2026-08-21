@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-08-06T04:31:26.640388+00:00",
+  "runs": [
+    {
+      "run": 1,
+      "seconds": 0.015,
+      "formal_opportunities": 6,
+      "weak_signals": 4,
+      "traceability_rate": 1.0,
+      "numeric_program_rate": 1.0,
+      "brief_evidence_rate": 1.0,
+      "trace_checks": 6,
+      "numeric_checks": 18,
+      "brief_checks": 18
+    },
+    {
+      "run": 2,
+      "seconds": 0.014,
+      "formal_opportunities": 6,
+      "weak_signals": 4,
+      "traceability_rate": 1.0,
+      "numeric_program_rate": 1.0,
+      "brief_evidence_rate": 1.0,
+      "trace_checks": 6,
+      "numeric_checks": 18,
+      "brief_checks": 18
+    },
+    {
+      "run": 3,
+      "seconds": 0.013,
+      "formal_opportunities": 6,
+      "weak_signals": 4,
+      "traceability_rate": 1.0,
+      "numeric_program_rate": 1.0,
+      "brief_evidence_rate": 1.0,
+      "trace_checks": 6,
+      "numeric_checks": 18,
+      "brief_checks": 18
+    },
+    {
+      "run": 4,
+      "seconds": 0.014,
+      "formal_opportunities": 6,
+      "weak_signals": 4,
+      "traceability_rate": 1.0,
+      "numeric_program_rate": 1.0,
+      "brief_evidence_rate": 1.0,
+      "trace_checks": 6,
+      "numeric_checks": 18,
+      "brief_checks": 18
+    },
+    {
+      "run": 5,
+      "seconds": 0.015,
+      "formal_opportunities": 6,
+      "weak_signals": 4,
+      "traceability_rate": 1.0,
+      "numeric_program_rate": 1.0,
+      "brief_evidence_rate": 1.0,
+      "trace_checks": 6,
+      "numeric_checks": 18,
+      "brief_checks": 18
+    }
+  ],
+  "successful_runs": 5,
+  "completion_rate": 1.0,
+  "total_seconds": 0.071
+}

@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+exports/*
+!exports/.gitkeep
+data/cache/*
+!data/cache/.gitkeep
+data/xijian.db
+data/xijian.db-shm
+data/xijian.db-wal
+ModelScope-创空间部署包.zip

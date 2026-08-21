@@ -1,0 +1,16 @@
+{
+  "events": {
+    "analysis_completed": 1,
+    "brief_copied": 1,
+    "brief_generated": 1,
+    "demo_started": 1,
+    "evidence_opened": 1,
+    "import_succeeded": 1,
+    "markdown_exported": 1,
+    "opportunity_clicked": 1,
+    "task_created": 1
+  },
+  "successful_imports": 1,
+  "brief_generations": 1,
+  "core_flow_completion_rate": 1.0
+}
