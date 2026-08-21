@@ -2,6 +2,8 @@
 
 > 从真实评论中发现值得创作的内容机会，并生成可追溯的选题 Brief。
 
+[**在线体验：ModelScope 创空间 →**](https://modelscope.cn/studios/ii76ii/jianxi)
+
 ![隙见项目封面](materials/cover-xijian-ai-studio.png)
 
 隙见是一款面向内容运营、市场研究和创作者的 AI 评论洞察工具。它把分散在评论区里的疑问、顾虑、争议和真实使用场景整理为可量化的内容机会，并让每条结论都能回到原始评论证据。
